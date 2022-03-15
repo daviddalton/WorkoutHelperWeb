@@ -1,0 +1,10 @@
+<div class="main-container">
+  <div class="workout-container">
+    <h1>Workouts</h1>
+    <mat-card class="workout-card" *ngFor="let workout of workouts">{{workout.name}}</mat-card>
+  </div>
+  <div class="exercises-container">
+    <h1>Exercises</h1>
+    <mat-card class="exercises-card" *ngFor="let exercise of exercises">{{exercise.name}}</mat-card>
+  </div>
+</div>
